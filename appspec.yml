@@ -1,0 +1,10 @@
+version: 0.0
+Resources:
+  - TargetService:
+      Type: AWS::ECS::Service
+      Properties:
+        TaskDefinition: my-nodejs-TD
+        LoadBalancerInfo:
+          ContainerName: "my-nodejs-container"
+          ContainerPort: 3000
+        PlatformVersion: "1.4.0"

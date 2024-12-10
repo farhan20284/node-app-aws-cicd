@@ -1,0 +1,16 @@
+{
+  "name": "app-aws-cicd",
+  "version": "1.0.0",
+  "description": "A simple Node.js application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
